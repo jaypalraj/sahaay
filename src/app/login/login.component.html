@@ -1,0 +1,26 @@
+
+<div class="row mt-5">
+    <section id="thirdPartyLogin" class="col-sm-4 offset-sm-2">
+        <div class="border bg-light d-flex flex-column justify-content-center align-items-center">
+        <button class="btn btn-primary btn-lg my-3">Facebook</button><br>
+        <button class="btn btn-danger btn-lg my-3">Google</button><br>
+        <button class="btn btn-info btn-lg my-3">Twitter</button>
+    </div>
+    </section>
+    <section id="login" class="col-sm-4">
+        <div class="border p-5 bg-light">
+        <form (ngSubmit)="login()" class="clearfix">
+            <div class="form-group">
+                <label>Email/Username:</label><br>
+                <input type="text" class="form-control" placeholder="Email/Username" [(ngModel)]="email" name="email">
+            </div>
+            <div class="form-group">
+                <label>Password:</label><br>
+                <input type="password" class="form-control" placeholder="Password" [(ngModel)]="password" name="password">
+            </div>
+            <hr>
+            <button class="btn btn-primary float-right">Login</button>
+        </form>
+    </div>
+    </section>
+</div>

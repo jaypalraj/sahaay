@@ -1,0 +1,20 @@
+[
+        {
+            "id": 1,
+            "fullName": "Jaypal Raj",
+            "email": "jaypal@sahaay.com",
+            "password": "test123"
+        },
+        {
+            "id": 1,
+            "fullName": "Rakesh Kansara",
+            "email": "rakesh@sahaay.com",
+            "password": "test123"
+        },
+        {
+            "id": 1,
+            "fullName": "Darshan Modi",
+            "email": "darshan@sahaay.com",
+            "password": "test123"
+        }
+    ]
